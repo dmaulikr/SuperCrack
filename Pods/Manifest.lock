@@ -1,0 +1,25 @@
+PODS:
+  - Appsee (2.3.3)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - SnapKit (3.2.0)
+  - SwiftySound (0.4.0)
+
+DEPENDENCIES:
+  - Appsee
+  - Crashlytics
+  - Fabric
+  - SnapKit (= 3.2.0)
+  - SwiftySound (= 0.4.0)
+
+SPEC CHECKSUMS:
+  Appsee: 64df012252e0e548f920da84c6a98caf936b4260
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftySound: 4897b230859801982700bb08ec40fa000ea2e59a
+
+PODFILE CHECKSUM: bff64ad170a142c6b8083afad30bf19cebff3107
+
+COCOAPODS: 1.2.0

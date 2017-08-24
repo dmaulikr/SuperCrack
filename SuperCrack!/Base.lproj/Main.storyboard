@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Colour Board-->
+        <scene sceneID="5M6-gk-qcc">
+            <objects>
+                <viewController title="Colour Board" id="0YU-Ja-IKq" customClass="PegboardViewController" customModule="SuperCrack_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="okF-S5-3O7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gtb-ri-L5Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ogq-ul-H8x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pegboard" image="icoPegboard" id="hKU-o9-91d"/>
+                    <navigationItem key="navigationItem" id="7oI-nY-ybK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="diu-Mn-pea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="-321"/>
+        </scene>
+        <!--Memory-->
+        <scene sceneID="hRh-0s-cLk">
+            <objects>
+                <viewController id="Md4-a3-oAW" customClass="MemoryViewController" customModule="SuperCrack_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lGo-gn-Pyd"/>
+                        <viewControllerLayoutGuide type="bottom" id="GLK-1E-4yG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m1c-av-obA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Memory" image="icoMemory" id="vBh-g3-43J"/>
+                    <navigationItem key="navigationItem" id="hlG-6J-5H6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4zH-hU-aeu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="359"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="qrR-to-Akf">
+            <objects>
+                <viewController id="DYI-bc-8Gj" customClass="SettingsViewController" customModule="SuperCrack_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DZa-6O-lW4"/>
+                        <viewControllerLayoutGuide type="bottom" id="KuN-ce-Lpw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nH9-ZQ-Gzd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="icoSettings" id="lVW-fT-gjo"/>
+                    <navigationItem key="navigationItem" id="8D2-jk-O4g"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDL-r1-xgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="1054"/>
+        </scene>
+        <!--My Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" customClass="MyTabBarController" customModule="SuperCrack_" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0YU-Ja-IKq" kind="relationship" relationship="viewControllers" id="I8q-mL-fio"/>
+                        <segue destination="Md4-a3-oAW" kind="relationship" relationship="viewControllers" id="l0O-2T-kLr"/>
+                        <segue destination="DYI-bc-8Gj" kind="relationship" relationship="viewControllers" id="B9J-sB-6zA"/>
+                        <segue destination="N0V-tB-zn5" kind="relationship" relationship="viewControllers" id="9w2-Zg-Cwg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Instructions-->
+        <scene sceneID="CvQ-x2-xeA">
+            <objects>
+                <viewController id="N0V-tB-zn5" customClass="InstructionsViewController" customModule="SuperCrack_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ya0-Jx-NTB"/>
+                        <viewControllerLayoutGuide type="bottom" id="62p-Wi-uBe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kvo-qY-Y5q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Instructions" image="icoInstructions" id="Rwb-oj-pb8"/>
+                    <navigationItem key="navigationItem" id="3eJ-CD-FXw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="09r-nv-q1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1689" y="1763"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icoInstructions" width="25" height="25"/>
+        <image name="icoMemory" width="21" height="25"/>
+        <image name="icoPegboard" width="25" height="25"/>
+        <image name="icoSettings" width="25" height="25"/>
+    </resources>
+</document>
