@@ -18,6 +18,10 @@ The author has always been a fan of code-cracking games and this one eliminates 
 
 * **Dave Chambers** - *Initial work* - [Dave Chambers](https://github.com/DaveChambers)
 
+## App Store
+
+https://itunes.apple.com/ee/app/supercrack/id1265625574?mt=8
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
