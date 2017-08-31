@@ -16,7 +16,7 @@ The author has always been a fan of code-cracking games and this one eliminates 
 
 ## Author
 
-* **Dave Chambers** - *Initial work* - [Dave Chambers](https://github.com/DaveChambers)
+* [Dave Chambers](http://www.davechambers.co.uk/)
 
 ## App Store
 
