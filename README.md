@@ -16,7 +16,7 @@ The author has always been a fan of code-cracking games and this one eliminates 
 
 ## Author
 
-* [Dave Chambers](http://www.davechambers.co.uk/)
+[Dave Chambers](http://www.davechambers.co.uk/)
 
 ## App Store
 
