@@ -20,7 +20,7 @@ The author has always been a fan of code-cracking games and this one eliminates 
 
 ## App Store
 
-https://itunes.apple.com/ee/app/supercrack/id1265625574?mt=8
+https://itunes.apple.com/us/app/supercrack/id1265625574?mt=8
 
 ## License
 
